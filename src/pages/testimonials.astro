@@ -2,7 +2,6 @@
 import MarketingLayout from '@/layouts/MarketingLayout.astro';
 import PageHeader from '@sections/content/PageHeader.astro';
 import TestimonialsGrid from '@sections/social-proof/TestimonialsGrid.astro';
-import CTA from '@sections/marketing/CTA.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { siteConfig } from '@/config';
 
@@ -23,11 +22,11 @@ const otherTestimonials = sortedTestimonials.filter((t: TestimonialEntry) => !t.
 
 <MarketingLayout
   title={`Testimonials - ${siteConfig.name}`}
-  description={`See what developers and teams are saying about ${siteConfig.name}. Real stories from real users.`}
+  description="Read real client testimonials. Trusted by clients worldwide."
 >
   <PageHeader
-    title="Loved by developers"
-    subtitle={`Don't just take our word for it. Here's what developers and teams are saying about ${siteConfig.name}.`}
+    title="Loved by numerous clients worldwide"
+    subtitle="Real stories from website owners who trusted us to recover, secure, and protect their WordPress sites."
   />
 
   <TestimonialsGrid
@@ -47,12 +46,5 @@ const otherTestimonials = sortedTestimonials.filter((t: TestimonialEntry) => !t.
     }))}
     emptyMessage="No testimonials yet. Check back soon!"
     background="default"
-  />
-
-  <CTA
-    title="Ready to join them?"
-    description="Start building and shipping faster with our modern deployment platform."
-    action={{ label: 'Get Started Free', href: '/pricing' }}
-    background="muted"
   />
 </MarketingLayout>

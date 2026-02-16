@@ -85,7 +85,7 @@ export interface LegalConfig {
 
 export interface FeatureFlags {
   blog: boolean;
-  docs: boolean;
+
   changelog: boolean;
   testimonials: boolean;
   roadmap: boolean;

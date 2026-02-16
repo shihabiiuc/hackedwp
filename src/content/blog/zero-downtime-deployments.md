@@ -2,7 +2,7 @@
 title: "Zero Downtime Deployments: How We Achieved 99.99% Uptime"
 description: "Learn how Virex implements zero-downtime deployments and the engineering decisions that helped us achieve 99.99% uptime for our customers."
 publishedDate: 2025-05-01
-author: "Sarah Mitchell"
+author: "Shihab Ul Hoque"
 image: "/images/blog/zero-downtime.webp"
 tags: ["tutorial", "deployment", "development"]
 draft: false

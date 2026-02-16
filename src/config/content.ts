@@ -17,13 +17,13 @@ export const announcement: AnnouncementConfig = {
   id: 'launch-2025',
 
   /** Announcement text */
-  text: '🚀 Virex 2.0 is here!',
+  text: '⭐ Trusted by Clients Worldwide • 5★ Fiverr Reviews',
 
   /** Optional link URL */
-  href: '/changelog',
+  href: 'https://www.fiverr.com/shihabiiuc',
 
   /** Optional link text */
-  linkText: "See what's new",
+  linkText: 'See my profile',
 
   /** Visual style: 'primary' | 'secondary' | 'gradient' */
   variant: 'primary',

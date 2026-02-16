@@ -2,7 +2,7 @@
 title: "Monorepo Deployment Strategies: A Practical Guide"
 description: "Managing deployments in a monorepo can be tricky. Learn strategies for efficient builds, smart caching, and independent service deployments."
 publishedDate: 2025-09-01
-author: "Sarah Mitchell"
+author: "Shihab Ul Hoque"
 image: "/images/blog/monorepo-deploy.webp"
 tags: ["deployment", "tutorial", "development"]
 draft: false

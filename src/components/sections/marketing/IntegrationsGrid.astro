@@ -186,8 +186,7 @@ const logoClass = invertOnDark ? 'dark:invert' : '';
       variant === 'detailed' && (
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-integrations-grid>
           {integrations.map((integration) => (
-            <a
-              href={integration.href || '#'}
+            <div
               class="group p-6 rounded-xl border border-border bg-background hover:border-primary hover:shadow-lg transition-all"
               data-category={integration.category || 'All'}
             >
@@ -221,7 +220,7 @@ const logoClass = invertOnDark ? 'dark:invert' : '';
                   )}
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       )

@@ -2,7 +2,7 @@
 title: "Introducing Virex 2.0: A New Era of Developer Productivity"
 description: "We're excited to announce Virex 2.0, our biggest release yet. Discover the new features that will transform how your team builds and ships software."
 publishedDate: 2025-10-01
-author: "Maria Rodriguez"
+author: "Shihab Ul Hoque"
 image: "/images/blog/virex-2-launch.webp"
 tags: ["product", "deployment"]
 draft: false

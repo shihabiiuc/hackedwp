@@ -10,15 +10,15 @@ import type { ContactInfo, ContactMethod, ContactFAQ } from '../lib/types';
 
 /** Contact information used across contact page and legal pages */
 export const contact: ContactInfo = {
-  email: 'hello@virex.example.com',
-  supportEmail: 'support@virex.example.com',
-  salesEmail: 'sales@virex.example.com',
+  email: 'shihabdinajpur@gmail.com',
+  supportEmail: 'hello@shihabiiuc.com',
+  salesEmail: 'shihabdinajpur@gmail.com',
   address: {
-    street: '123 Market Street, Suite 400',
-    city: 'San Francisco',
-    state: 'CA',
-    zip: '94102',
-    country: 'United States',
+    street: 'Professor para, Birampur',
+    city: 'Dinajpur',
+    state: 'Rangpur',
+    zip: '5266',
+    country: 'Bangladesh',
   },
 };
 
@@ -31,32 +31,34 @@ export const contactMethods: ContactMethod[] = [
     href: `mailto:${contact.email}`,
   },
   {
-    icon: 'simple-icons:discord',
-    label: 'Discord',
-    value: 'Join Discord',
-    href: 'https://discord.gg/virex',
+    icon: 'simple-icons:whatsapp',
+    label: 'WhatsApp',
+    value: 'WhatsApp +8801947888197',
+    href: 'https://wa.me/8801947888197',
   },
   {
-    icon: 'lucide:twitter',
-    label: 'Twitter',
-    value: '@virex',
-    href: 'https://twitter.com/virex',
+    icon: 'simple-icons:fiverr',
+    label: 'Fiverr',
+    value: 'Fiverr@shihabiiuc',
+    href: 'https://fiverr.com/shihabiiuc',
   },
 ];
 
 /** FAQ items displayed on the contact page */
 export const contactFAQs: ContactFAQ[] = [
   {
-    question: "What's your typical response time?",
-    answer: 'We respond to most inquiries within 24 hours during business days.',
-  },
-  {
-    question: 'Do you offer phone support?',
+    question: 'How quickly can you fix my hacked WordPress website?',
     answer:
-      'Phone support is available for Enterprise customers. Others can reach us via email or Discord.',
+      'In most cases, I start working within minutes of confirmation. Basic malware infections and common issues can often be cleaned within a few hours. More complex hacks may take longer depending on severity, but I always provide a clear timeline after initial review.',
   },
   {
-    question: 'How do I report a bug?',
-    answer: 'Use the form with "Technical support" as subject, or open an issue on our GitHub.',
+    question: 'Will my website data be safe during the cleanup process?',
+    answer:
+      'Yes. I always create a full backup before starting any recovery work. Your database, media files, and content are preserved. The goal is to remove malware and vulnerabilities without affecting your existing website content.',
+  },
+  {
+    question: 'How do we work together during the repair process?',
+    answer:
+      'After you contact me, I will request temporary access (hosting, cPanel, or WordPress admin). I can also assist via live support using screen-sharing tools if needed. Once the issue is resolved, I provide a report explaining what was fixed and how to prevent future problems.',
   },
 ];

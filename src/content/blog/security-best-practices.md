@@ -2,7 +2,7 @@
 title: "Security Best Practices for Modern Web Applications"
 description: "A comprehensive guide to securing your web applications, from authentication to infrastructure. Learn the practices we use at Virex to keep your deployments safe."
 publishedDate: 2025-07-01
-author: "James Chen"
+author: "Shihab Ul Hoque"
 image: "/images/blog/security-practices.webp"
 tags: ["development", "tutorial", "deployment"]
 draft: false

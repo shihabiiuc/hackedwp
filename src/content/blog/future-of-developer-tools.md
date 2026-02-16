@@ -2,7 +2,7 @@
 title: "The Future of Developer Tools: Trends Shaping 2025"
 description: "Explore the emerging trends in developer tooling—from AI-assisted development to platform engineering—and how they're reshaping how we build software."
 publishedDate: 2025-11-01
-author: "James Chen"
+author: "Shihab Ul Hoque"
 image: "/images/blog/future-dev-tools.webp"
 tags: ["tutorial", "development", "product"]
 draft: false

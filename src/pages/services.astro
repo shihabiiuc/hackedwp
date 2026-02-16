@@ -1,0 +1,73 @@
+---
+import MarketingLayout from '@/layouts/MarketingLayout.astro';
+import PageHeader from '@sections/content/PageHeader.astro';
+import FeaturesSection from '@sections/marketing/FeaturesSection.astro';
+import { siteConfig } from '@/config';
+
+const features = [
+  {
+    icon: 'lucide:siren',
+    title: 'Emergency & Recovery',
+    description:
+      'Hacked website recovery, malware removal & cleanup, reinfection cleanup, blacklist removal (Google safe browsing).',
+  },
+  {
+    icon: 'lucide:shield-check',
+    title: 'Security & Protection',
+    description: 'Security hardening, and ongoing protection & website monitoring.',
+  },
+  {
+    icon: 'lucide:circle-gauge',
+    title: 'Performance & Infrastructure',
+    description: 'Speed optimization, proper caching, and Cloudflare setup & optimization.',
+  },
+  {
+    icon: 'lucide:activity',
+    title: 'WordPress Security Audit & Risk Assessment',
+    description:
+      'A comprehensive review of your WordPress site, server configuration, plugins, and access controls to identify vulnerabilities and reduce security risks before they become serious problems.',
+  },
+  {
+    icon: 'lucide:server-cog',
+    title: 'Server & Hosting Security Optimization',
+    description:
+      'Hardening your hosting environment, PHP configuration, file permissions, and server settings to eliminate weak points that commonly lead to WordPress infections.',
+  },
+  {
+    icon: 'lucide:flame',
+    title: 'Emergency WordPress Support (Same-Day Fix)',
+    description:
+      'Priority troubleshooting and rapid issue resolution for hacked, broken, or inaccessible WordPress websites — with fast diagnosis and immediate action.',
+  },
+  {
+    icon: 'lucide:arrow-left-right',
+    title: 'Secure WordPress Migration',
+    description:
+      'Safe migration of your WordPress website to a more secure and reliable hosting environment, ensuring zero data loss and improved stability.',
+  },
+  {
+    icon: 'lucide:trophy',
+    title: 'Post-Hack SEO Cleanup & Reputation Recovery',
+    description:
+      "Removal of malicious SEO spam, cleanup of hacked URLs, blacklist review, and search engine resubmission to restore your website's trust and rankings.",
+  },
+];
+---
+
+<MarketingLayout
+  title={`Services - ${siteConfig.name}`}
+  description="Emergency WordPress recovery, malware removal, hacked site cleanup, security hardening, speed optimization, and Cloudflare setup. Fast, professional WordPress support for hacked, broken, and underperforming websites."
+>
+  <PageHeader
+    title="WordPress Recovery & Support Services"
+    subtitle="Emergency hacked website recovery, malware removal, performance optimization, and technical WordPress support — fast, secure, and handled by an independent expert freelance web developer."
+  />
+
+  <FeaturesSection
+    title="Specialized help for Hacked, Broken & Underperforming WordPress Sites"
+    subtitle="Whether your website has been hacked, is showing critical errors, running painfully slow, or completely down — I provide focused WordPress solutions to diagnose the issue, fix it properly, and secure it against future problems. No guesswork, no unnecessary upsells — just fast, professional help when you need it most."
+    features={features}
+    background="muted"
+    footerLink={{ label: 'Contact me now →', href: '/contact' }}
+  />
+</MarketingLayout>

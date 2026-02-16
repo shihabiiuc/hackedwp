@@ -2,7 +2,7 @@
 title: "Scaling to 1 Million Requests Per Second: Lessons from the Trenches"
 description: "A deep dive into how we scaled Virex's infrastructure to handle over 1 million requests per second while maintaining sub-50ms response times."
 publishedDate: 2025-08-01
-author: "David Kim"
+author: "Shihab Ul Hoque"
 image: "/images/blog/scaling-million.webp"
 tags: ["tutorial", "deployment"]
 draft: false

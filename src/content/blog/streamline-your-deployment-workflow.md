@@ -2,7 +2,7 @@
 title: "How to Streamline Your Deployment Workflow with Virex"
 description: "Learn practical strategies to reduce deployment time by 70% using Virex's built-in automation features and best practices from high-performing teams."
 publishedDate: 2025-06-01
-author: "Maria Rodriguez"
+author: "Shihab Ul Hoque"
 image: "/images/blog/deployment-workflow.webp"
 tags: ["deployment", "product"]
 draft: false

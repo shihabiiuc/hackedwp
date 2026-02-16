@@ -19,17 +19,16 @@ export const navigation: Navigation = {
    */
   header: {
     main: [
-      { label: 'Features', href: '/features' },
+      { label: 'Home', href: '/' },
+      { label: 'About', href: '/about' },
+      { label: 'Services', href: '/services' },
       { label: 'Pricing', href: '/pricing' },
-      { label: 'Demo', href: '/dashboard' },
-      { label: 'Customers', href: '/customers' },
-      { label: 'Enterprise', href: '/enterprise' },
-      { label: 'Docs', href: '/docs', feature: 'docs' },
       { label: 'Blog', href: '/blog', feature: 'blog' },
+      { label: 'Contact', href: '/contact' },
     ],
     cta: [
-      { label: 'Login', href: '/login', variant: 'ghost' },
-      { label: 'Get Started', href: '/register', variant: 'primary' },
+      { label: 'FAQ', href: '/faq', variant: 'ghost' },
+      { label: 'WhatsApp', href: 'https://wa.me/8801947888197', variant: 'primary' },
     ],
   },
 
@@ -39,30 +38,11 @@ export const navigation: Navigation = {
    */
   footer: {
     product: [
-      { label: 'Features', href: '/features' },
-      { label: 'Integrations', href: '/integrations' },
-      { label: 'Security', href: '/security' },
-      { label: 'Pricing', href: '/pricing' },
-      { label: 'FAQ', href: '/faq' },
+      { label: 'Preloader WP', href: 'https://shihabiiuc.com/preloader-wordpress-plugin/' },
     ],
-    solutions: [
-      { label: 'Enterprise', href: '/enterprise' },
-      { label: 'Customers', href: '/customers' },
-      { label: 'Request Demo', href: '/demo' },
-      { label: 'Status', href: '/status' },
-    ],
-    resources: [
-      { label: 'Documentation', href: '/docs', feature: 'docs' },
-      { label: 'Blog', href: '/blog', feature: 'blog' },
-      { label: 'Changelog', href: '/changelog', feature: 'changelog' },
-      { label: 'Roadmap', href: '/roadmap', feature: 'roadmap' },
-    ],
-    company: [
-      { label: 'About', href: '/about' },
-      { label: 'Careers', href: '/careers' },
-      { label: 'Contact', href: '/contact' },
-      { label: 'Testimonials', href: '/testimonials', feature: 'testimonials' },
-    ],
+    solutions: [{ label: 'WordPress Security Services', href: '/services' }],
+    resources: [{ label: 'Blog', href: '/blog' }],
+    company: [{ label: 'About', href: '/about' }],
     legal: [
       { label: 'Privacy', href: '/privacy' },
       { label: 'Terms', href: '/terms' },

@@ -13,9 +13,6 @@ export const features: FeatureFlags = {
   /** Enable blog section and /blog routes */
   blog: true,
 
-  /** Enable documentation section and /docs routes */
-  docs: true,
-
   /** Enable changelog section and /changelog route */
   changelog: true,
 
