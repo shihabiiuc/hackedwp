@@ -17,13 +17,13 @@ export const announcement: AnnouncementConfig = {
   id: 'launch-2025',
 
   /** Announcement text */
-  text: '⭐ Trusted by Clients Worldwide • 5★ Fiverr Reviews',
+  text: 'Need Help?',
 
   /** Optional link URL */
-  href: 'https://www.fiverr.com/shihabiiuc',
+  href: 'https://www.fiverr.com/s/kLYrV3k',
 
   /** Optional link text */
-  linkText: 'See my profile',
+  linkText: 'Contact Me on Fiverr',
 
   /** Visual style: 'primary' | 'secondary' | 'gradient' */
   variant: 'primary',
