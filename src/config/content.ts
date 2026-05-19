@@ -20,10 +20,10 @@ export const announcement: AnnouncementConfig = {
   text: 'Need Help?',
 
   /** Optional link URL */
-  href: 'https://www.fiverr.com/s/kLYrV3k',
+  href: 'https://calendly.com/shihabiiuc/booking',
 
   /** Optional link text */
-  linkText: 'Contact Me on Fiverr',
+  linkText: 'Book a Meeting on Calendly',
 
   /** Visual style: 'primary' | 'secondary' | 'gradient' */
   variant: 'primary',

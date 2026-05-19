@@ -31,16 +31,10 @@ export const contactMethods: ContactMethod[] = [
     href: `mailto:${contact.email}`,
   },
   {
-    icon: 'simple-icons:whatsapp',
-    label: 'WhatsApp',
-    value: 'WhatsApp +8801947888197',
-    href: 'https://wa.me/8801947888197',
-  },
-  {
-    icon: 'simple-icons:fiverr',
-    label: 'Fiverr',
-    value: 'Fiverr@shihabiiuc',
-    href: 'https://fiverr.com/shihabiiuc',
+    icon: 'lucide:calendar',
+    label: 'Calendly',
+    value: 'Calendly',
+    href: 'https://calendly.com/shihabiiuc/booking',
   },
 ];
 
