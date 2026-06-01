@@ -49,11 +49,13 @@ import { Icon } from 'astro-icon/components';
   }
 
   function getThemePreference(): 'dark' | 'light' {
-    const stored = localStorage.getItem('theme');
-    if (stored === 'dark' || stored === 'light') {
-      return stored;
-    }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // const stored = localStorage.getItem('theme');
+    // if (stored === 'dark' || stored === 'light') {
+    //   return stored;
+    // }
+    //return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // Making it default to dark mode
+    return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark';
   }
 
   function setTheme(theme: 'dark' | 'light') {
