@@ -53,13 +53,6 @@ const legalLinks = filterByFeature(footer.legal);
         <!-- Contact Info -->
         <div class="mt-4 space-y-1 text-sm text-text-muted">
           {
-            contact.email && (
-              <a href={`mailto:${contact.email}`} class="block hover:text-text transition-colors">
-                {contact.email}
-              </a>
-            )
-          }
-          {
             contact.address && (
               <p>
                 {contact.address.city}, {contact.address.state}, {contact.address.country}

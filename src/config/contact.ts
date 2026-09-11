@@ -25,16 +25,10 @@ export const contact: ContactInfo = {
 /** Contact methods displayed on the contact page */
 export const contactMethods: ContactMethod[] = [
   {
-    icon: 'lucide:mail',
-    label: 'Email',
-    value: contact.email,
-    href: `mailto:${contact.email}`,
-  },
-  {
-    icon: 'lucide:calendar',
-    label: 'Calendly',
-    value: 'Calendly',
-    href: 'https://calendly.com/shihabiiuc/booking',
+    icon: 'lucide:briefcase',
+    label: 'Upwork',
+    value: 'Upwork',
+    href: 'https://www.upwork.com/freelancers/shihabiiuc?mp_source=share',
   },
 ];
 

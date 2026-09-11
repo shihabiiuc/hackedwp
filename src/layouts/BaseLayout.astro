@@ -45,10 +45,9 @@ const {
     <!-- Theme and announcement initialization - runs before page render to prevent flash -->
     <script is:inline>
       (function () {
-        // Theme initialization
+        // Theme initialization - defaults to light mode on first visit
         const stored = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const theme = stored || (prefersDark ? 'dark' : 'light');
+        const theme = stored === 'dark' || stored === 'light' ? stored : 'light';
         if (theme === 'dark') {
           document.documentElement.classList.add('dark');
         }

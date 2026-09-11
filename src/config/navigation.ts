@@ -28,7 +28,11 @@ export const navigation: Navigation = {
     ],
     cta: [
       { label: 'FAQ', href: '/faq', variant: 'ghost' },
-      { label: 'WhatsApp', href: 'https://wa.me/8801947888197', variant: 'primary' },
+      {
+        label: 'Upwork',
+        href: 'https://www.upwork.com/freelancers/shihabiiuc?mp_source=share',
+        variant: 'primary',
+      },
     ],
   },
 

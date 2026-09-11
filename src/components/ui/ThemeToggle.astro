@@ -4,8 +4,8 @@
  *
  * @description
  * A toggle button that switches between light and dark color modes. The theme
- * preference is persisted in localStorage and respects the user's system
- * preference on first visit. The button displays a sun icon in dark mode and
+ * preference is persisted in localStorage and defaults to light mode on
+ * first visit. The button displays a sun icon in dark mode and
  * a moon icon in light mode.
  *
  * @example
@@ -15,7 +15,7 @@
  *
  * @remarks
  * This component doesn't accept props. It automatically:
- * - Detects system color scheme preference on first visit
+ * - Defaults to light mode on first visit
  * - Saves user preference to localStorage
  * - Updates the `dark` class on the `<html>` element
  * - Syncs icon state across multiple instances on the same page
@@ -49,13 +49,11 @@ import { Icon } from 'astro-icon/components';
   }
 
   function getThemePreference(): 'dark' | 'light' {
-    // const stored = localStorage.getItem('theme');
-    // if (stored === 'dark' || stored === 'light') {
-    //   return stored;
-    // }
-    //return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    // Making it default to dark mode
-    return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark';
+    const stored = localStorage.getItem('theme');
+    if (stored === 'dark' || stored === 'light') {
+      return stored;
+    }
+    return 'light';
   }
 
   function setTheme(theme: 'dark' | 'light') {

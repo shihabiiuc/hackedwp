@@ -20,10 +20,10 @@ export const announcement: AnnouncementConfig = {
   text: 'Need Help?',
 
   /** Optional link URL */
-  href: 'https://calendly.com/shihabiiuc/booking',
+  href: 'https://www.upwork.com/freelancers/shihabiiuc?mp_source=share',
 
   /** Optional link text */
-  linkText: 'Book a Meeting on Calendly',
+  linkText: 'Hire Me on Upwork',
 
   /** Visual style: 'primary' | 'secondary' | 'gradient' */
   variant: 'primary',
